@@ -1,0 +1,7 @@
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\bin\TypeScriptHTMLApp1.dll
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\bin\TypeScriptHTMLApp1.pdb
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\obj\Debug\Zoa84.github.io.csprojAssemblyReference.cache
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\obj\Debug\Zoa84.github.io.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\Simon\Desktop\Local Git\Zoa84.github.io\obj\Debug\TypeScriptHTMLApp1.pdb
