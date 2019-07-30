@@ -75,6 +75,10 @@ h1 {
     padding-left: 5%;
 }
 
+h2 {
+    text-align: center;
+}
+
 header table {
     position: fixed;
     top: 100px;
@@ -92,6 +96,10 @@ table, th, td {
 header th {
     width: 20%;
     background-color: Black;
+}
+
+.profPic {
+    float: right;
 }
 
 .data {
@@ -121,15 +129,6 @@ footer {
 
 .data table {
     width: 100%;
-}
-
-.characters img {
-    float: left;
-    margin: 50px;
-}
-
-.trophy {
-    width: 15%;
 }
 
 .name {
