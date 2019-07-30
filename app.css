@@ -3,14 +3,14 @@
 }
 
 body {
-    font: 16px "Times New Roman", "Arial", sans-serif;
+    font: 17px "Times New Roman", "Arial", sans-serif;
     color: #FFFFFF;
     background-color: Black;
     background-image: url("images/background.png");
     background-position: center;
     background-size: auto 100%;
     padding-top: 20%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-attachment: fixed;
 }
 
@@ -114,7 +114,8 @@ footer {
     height: 50px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: Purple;
+    padding-bottom: 2%;
+    background-color: #121254;
     letter-spacing: 2px;
 }
 
