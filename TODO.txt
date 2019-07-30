@@ -1,0 +1,9 @@
+Change out topTitle to be a HTML created gradient to save on images to load
+
+Change out background to a smaller, repeatable image to save on images to load
+
+Update footer to look a bit better, maybe also a repeating image
+
+Update About Me info, start with just copy and paste profile for me, then tune it to be work related, and add further info as per email
+
+Update Portfolio page, use tables to show off projects vertically, and update navigation to go to each section, otherwise may be better to remove navigation
