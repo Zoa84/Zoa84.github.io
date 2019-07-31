@@ -3,7 +3,7 @@
 }
 
 body {
-    font: 17px "Times New Roman", "Arial", sans-serif;
+    font: 17px "Helvetica", "Arial", sans-serif;
     color: #FFFFFF;
     background-color: Black;
     background-image: url("images/background.png");
@@ -15,24 +15,33 @@ body {
 }
 
 header {
+    font: 17px "Times New Roman", "Arial", sans-serif;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100px;
     background-color: Black;
-    background-image: url("images/topTitle.png");
+    background-image: linear-gradient(to right, black, #1a0055, black);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 1000px;
 }
 
-a:link {
+header a:link {
     color: White;
 }
 
-a:visited {
+header a:visited {
     color: White;
+}
+
+a:link {
+    color: deepskyblue;
+}
+
+a:visited {
+    color: deepskyblue;
 }
 
 nav {
@@ -67,15 +76,23 @@ nav {
         width: 150px;
     }
 
-        nav:hover > ul {
-            display: block;
-        }
+    nav:hover > ul {
+        display: block;
+    }
+
+.anchor {
+    display: block;
+    height: 150px;
+    margin-top: -150px;
+}
 
 h1 {
+    font: 30px "Helvetica", "Arial", sans-serif;
     padding-left: 5%;
 }
 
 h2 {
+    font: 28px "Helvetica", "Arial", sans-serif;
     text-align: center;
 }
 
@@ -85,17 +102,29 @@ header table {
     padding-left: 5%;
     padding-right: 5%;
     height: 40px;
-    width: 100%;
     background-color: White;
-}
-
-table, th, td {
-    border: 3px solid grey;
 }
 
 header th {
     width: 20%;
     background-color: Black;
+}
+
+table {
+    border: 3px solid grey;
+    width: 100%;
+}
+
+th, td {
+    border: 3px solid grey;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
 }
 
 .profPic {
@@ -107,8 +136,8 @@ header th {
     top: 200px;
     left: 0px;
     right: 0px;
-    margin: 0px 50px 20px 50px;
-    padding-left: 50px;
+    margin: 0px 60px 20px 60px;
+    padding-left: 55px;
     padding-right: 100px;
     z-index: -1;
     background-color: rgba(50, 50, 50, 0.5);
@@ -122,28 +151,8 @@ footer {
     height: 50px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     background-color: #121254;
+    background-image: linear-gradient(to right, black, #1a0055, black);
     letter-spacing: 2px;
-}
-
-.data table {
-    width: 100%;
-}
-
-.name {
-    width: 20%;
-}
-
-.des {
-    width: 30%;
-}
-
-.how {
-    width: 40%;
-}
-
-.anchor {
-    position: relative;
-    top: -160px;
 }
