@@ -2,7 +2,7 @@ Change out background to a smaller, repeatable image to save on images to load
 
 Update footer to use a repeating image?
 
-Update About Me info, general clean up of text, include more info?
+Update About Me info, include projects or put in portfolio?
 
 Update Portfolio page, use tables to show off projects vertically, and update navigation to go to each section
 
