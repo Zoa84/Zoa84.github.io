@@ -6,6 +6,7 @@ body {
     font: 17px "Helvetica", "Arial", sans-serif;
     color: #FFFFFF;
     background-color: Black;
+    background-image: linear-gradient(to right, black, deepskyblue, black);
     background-image: url("images/background.jpg");
     background-position: center;
     background-size: auto 100%;
@@ -154,8 +155,7 @@ footer {
     height: 50px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 1%;
-    background-color: #121254;
+    background-color: #1a0055;
     background-image: linear-gradient(to right, black, #1a0055, black);
     letter-spacing: 2px;
 }
