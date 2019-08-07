@@ -10,4 +10,4 @@ AI
 
 Add a "Featured Products" to the home page for most recent/best works
 
-Get a logo
+Remove the me in first line of website portfolio
