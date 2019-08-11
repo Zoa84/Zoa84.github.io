@@ -5,9 +5,6 @@ Update footer to use a repeating image?
 Update About Me info? See what should be added or removed
 
 Update Portfolio page, use tables to show off projects vertically, and update navigation to go to each section, and have pictures and videos. Look up about making viewable pictures in a mini window of sorts
-Leap Engine
 AI
 
 Add a "Featured Products" to the home page for most recent/best works
-
-Remove the me in first line of website portfolio
