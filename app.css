@@ -138,13 +138,26 @@ td {
 .data {
     position: absolute;
     top: 200px;
-    left: 0px;
-    right: 0px;
     margin: 0px 60px 20px 60px;
-    padding-left: 55px;
-    padding-right: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
     z-index: -1;
     background-color: rgba(50, 50, 50, 0.5);
+    max-width: 1600px;
+}
+
+@media (max-width: 1600px) {
+    .data {
+        position: absolute;
+        top: 200px;
+        left: 0px;
+        right: 0px;
+        margin: 0px 60px 20px 60px;
+        padding-left: 55px;
+        padding-right: 100px;
+        z-index: -1;
+        background-color: rgba(50, 50, 50, 0.5);
+    }
 }
 
 footer {
