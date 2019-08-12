@@ -156,6 +156,7 @@ td {
         padding-right: 100px;
         z-index: -1;
         background-color: rgba(25, 25, 25, 0.5);
+        min-width: 400px;
     }
 }
 
