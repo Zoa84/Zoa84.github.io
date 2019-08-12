@@ -4,9 +4,11 @@ Update footer to use a repeating image?
 
 Update About Me info? See what should be added or removed
 
-Update Portfolio page, use tables to show off projects vertically, and update navigation to go to each section, and have pictures and videos. Look up about making viewable pictures in a mini window of sorts
-AI-Add more info, create a video
+Update Portfolio page,
+-Use tables to show off projects vertically?
+-Look up about making viewable pictures in a mini window of sorts
+-AI-Add more info, create a video and link it
 
-Add a "Featured Products" to the home page for most recent/best works
+Add a "Featured Products" to the home page for most recent/best works? (May be better to add later)
 
 Look into creating a blog area/page to add blog posts for current projects

@@ -7,11 +7,10 @@ body {
     color: #FFFFFF;
     background-color: Black;
     background-image: linear-gradient(to right, black, deepskyblue, black);
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.png");
     background-position: center;
-    background-size: auto 100%;
     padding-top: 20%;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -142,7 +141,7 @@ td {
     padding-left: 20%;
     padding-right: 20%;
     z-index: -1;
-    background-color: rgba(50, 50, 50, 0.5);
+    background-color: rgba(25, 25, 25, 0.5);
     max-width: 1600px;
 }
 
@@ -156,7 +155,7 @@ td {
         padding-left: 55px;
         padding-right: 100px;
         z-index: -1;
-        background-color: rgba(50, 50, 50, 0.5);
+        background-color: rgba(25, 25, 25, 0.5);
     }
 }
 
