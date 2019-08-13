@@ -1,11 +1,7 @@
-Change out background to a smaller, repeatable image to save on images to load
-
-Update footer to use a repeating image?
-
-Update About Me info? See what should be added or removed
+Update footer to use a repeating image? May be fine as is
 
 Update Portfolio page,
--Use tables to show off projects vertically?
+-Use tables to show off projects vertically? May be fine as is
 -Look up about making viewable pictures in a mini window of sorts
 -AI-Add more info, create a video and link it
 
