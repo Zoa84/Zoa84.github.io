@@ -3,7 +3,7 @@ Update footer to use a repeating image? May be fine as is
 Update Portfolio page,
 -Use tables to show off projects vertically? May be fine as is for now, until more projects
 -Look up about making viewable pictures in a mini window of sorts
--AI-Add more info, create a video and link it
+-AI-Add more info?
 
 Add a "Featured Products" to the home page for most recent/best works? (May be better to add later)
 
