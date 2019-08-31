@@ -44,6 +44,11 @@ a:visited {
     color: deepskyblue;
 }
 
+.portImg {
+    width: 35%;
+    min-width: 300px;
+}
+        
 nav {
     position: fixed;
     top: 160px;
