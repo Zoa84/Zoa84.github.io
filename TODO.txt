@@ -10,8 +10,5 @@ Add a "Featured Products" to the home page for most recent/best works? (May be b
 
 
 
-
-
-Look into creating a blog area/page to add blog posts for current projects
-
-Remove excess objs and other files from repository
+Blog:
+Add a 'tags'/'hashtags' system of sorts, the most simple version would be to just have these tags under a blog post or in the description to give the reader an idea what the post is about
