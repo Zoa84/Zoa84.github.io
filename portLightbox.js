@@ -28,26 +28,30 @@ lickImgs[2] = "./images/lick3.jpg";
 var modal = document.getElementById("modal");
 var span = document.getElementsByClassName("close")[0];
 var modalImg = document.getElementById("modalIMG")
+var currentModalImg;
 
 //Show the next image for all portfolio image gallerys
 function NextImage() {
-    aiCurrentImg++;
-    if (aiCurrentImg > aiImgs.length - 1) {
-        aiCurrentImg = 0;
-    }
-    document.getElementById("aiIMG").src = aiImgs[aiCurrentImg];
+    //Stop changing the image if the modal gallery is open
+    if (modal.style.display != "block") {
+        aiCurrentImg++;
+        if (aiCurrentImg > aiImgs.length - 1) {
+            aiCurrentImg = 0;
+        }
+        document.getElementById("aiIMG").src = aiImgs[aiCurrentImg];
 
-    leapCurrentImg++;
-    if (leapCurrentImg > leapImgs.length - 1) {
-        leapCurrentImg = 0;
-    }
-    document.getElementById("leapIMG").src = leapImgs[leapCurrentImg];
+        leapCurrentImg++;
+        if (leapCurrentImg > leapImgs.length - 1) {
+            leapCurrentImg = 0;
+        }
+        document.getElementById("leapIMG").src = leapImgs[leapCurrentImg];
 
-    lickCurrentImg++;
-    if (lickCurrentImg > lickImgs.length - 1) {
-        lickCurrentImg = 0;
+        lickCurrentImg++;
+        if (lickCurrentImg > lickImgs.length - 1) {
+            lickCurrentImg = 0;
+        }
+        document.getElementById("lickIMG").src = lickImgs[lickCurrentImg];
     }
-    document.getElementById("lickIMG").src = lickImgs[lickCurrentImg];
 }
 
 //Start cycling for all image gallerys
@@ -59,12 +63,15 @@ function OpenModal(imgEnum) {
     switch (imgEnum) {
         case ImgEnum.aiImg:
             modalImg.src = aiImgs[aiCurrentImg];
+            currentModalImg = ImgEnum.aiImg;
             break;
         case ImgEnum.leapImg:
             modalImg.src = leapImgs[leapCurrentImg];
+            currentModalImg = ImgEnum.leapImg;
             break;
         case ImgEnum.lickImg:
-            modalImg.src = lickImgs[aiCurrentImg];
+            modalImg.src = lickImgs[lickCurrentImg];
+            currentModalImg = ImgEnum.lickImg;
             break;
     }
 
@@ -82,5 +89,30 @@ window.onclick = function (event) {
 }
 
 function NextModalImage() {
-
+    switch (currentModalImg) {
+        case ImgEnum.aiImg:
+            aiCurrentImg++;
+            if (aiCurrentImg > aiImgs.length - 1) {
+                aiCurrentImg = 0;
+            }
+            document.getElementById("aiIMG").src = aiImgs[aiCurrentImg];
+            modalImg.src = aiImgs[aiCurrentImg];
+            break;
+        case ImgEnum.leapImg:
+            leapCurrentImg++;
+            if (leapCurrentImg > leapImgs.length - 1) {
+                leapCurrentImg = 0;
+            }
+            document.getElementById("leapIMG").src = leapImgs[leapCurrentImg];
+            modalImg.src = leapImgs[leapCurrentImg];
+            break;
+        case ImgEnum.lickImg:
+            lickCurrentImg++;
+            if (lickCurrentImg > lickImgs.length - 1) {
+                lickCurrentImg = 0;
+            }
+            document.getElementById("lickIMG").src = lickImgs[lickCurrentImg];
+            modalImg.src = lickImgs[lickCurrentImg];
+            break;
+    }
 }

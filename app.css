@@ -206,13 +206,13 @@ footer {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: white;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
     height: 80%;
-    border: 10px solid #1a0055;
+    border: 10px solid black;
 }
 
 .close {
