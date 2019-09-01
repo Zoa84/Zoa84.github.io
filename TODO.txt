@@ -2,7 +2,6 @@ Update footer to use a repeating image? May be fine as is
 
 Update Portfolio page,
 -Use tables to show off projects vertically? May be fine as is for now, until more projects
--Look up about making viewable pictures in a mini window of sorts
 -AI-Add more info?
 
 Add a "Featured Products" to the home page for most recent/best works? (May be better to add later)
@@ -12,3 +11,9 @@ Add a "Featured Products" to the home page for most recent/best works? (May be b
 
 Blog:
 Add a 'tags'/'hashtags' system of sorts, the most simple version would be to just have these tags under a blog post or in the description to give the reader an idea what the post is about
+Change the Nav bar in Blog to have smaller text for each post, and remove the underline to read the dates better
+
+
+Portfolio:
+-Look up about making viewable pictures in a mini window of sorts
+--Attempting to create a lightbox or modal image gallery for the project pictures
