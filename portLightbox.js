@@ -25,10 +25,10 @@ lickImgs[0] = "./images/lick1.jpg";
 lickImgs[1] = "./images/lick2.jpg";
 lickImgs[2] = "./images/lick3.jpg";
 
-var modal = document.getElementById("modal");
-var span = document.getElementsByClassName("close")[0];
-var modalImg = document.getElementById("modalIMG")
-var currentModalImg;
+var modal = document.getElementById("modal");           //The modal div in portfolio.html
+var span = document.getElementsByClassName("close")[0]; //The cross button to exit modal
+var modalImg = document.getElementById("modalIMG")      //The image shown in the modal gallery
+var currentModalImg;                //The current portfolio image open in the modal gallery
 
 //Show the next image for all portfolio image gallerys
 function NextImage() {
@@ -59,6 +59,7 @@ function StartCycleImgs() {
     setInterval(NextImage, iNextImgTime);
 }
 
+//Open the modal gallery, passing which portfolio piece to open
 function OpenModal(imgEnum) {
     switch (imgEnum) {
         case ImgEnum.aiImg:
@@ -75,19 +76,22 @@ function OpenModal(imgEnum) {
             break;
     }
 
-    modal.style.display = "block";
+    modal.style.display = "block";  //Display the modal, usually set as 'none' to be hidden
 }
 
+//Close the modal gallery if the close button is clicked
 span.onclick = function () {
     modal.style.display = "none";
 }
 
+//Close the modal gallery if outside the gallery is clicked
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
 
+//Load the next image in the modal gallery for the currently selected portfolio image
 function NextModalImage() {
     switch (currentModalImg) {
         case ImgEnum.aiImg:
