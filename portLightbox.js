@@ -25,6 +25,10 @@ lickImgs[0] = "./images/lick1.jpg";
 lickImgs[1] = "./images/lick2.jpg";
 lickImgs[2] = "./images/lick3.jpg";
 
+var modal = document.getElementById("modal");
+var span = document.getElementsByClassName("close")[0];
+var modalImg = document.getElementById("modalIMG")
+
 //Show the next image for all portfolio image gallerys
 function NextImage() {
     aiCurrentImg++;
@@ -49,4 +53,34 @@ function NextImage() {
 //Start cycling for all image gallerys
 function StartCycleImgs() {
     setInterval(NextImage, iNextImgTime);
+}
+
+function OpenModal(imgEnum) {
+    switch (imgEnum) {
+        case ImgEnum.aiImg:
+            modalImg.src = aiImgs[aiCurrentImg];
+            break;
+        case ImgEnum.leapImg:
+            modalImg.src = leapImgs[leapCurrentImg];
+            break;
+        case ImgEnum.lickImg:
+            modalImg.src = lickImgs[aiCurrentImg];
+            break;
+    }
+
+    modal.style.display = "block";
+}
+
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+function NextModalImage() {
+
 }

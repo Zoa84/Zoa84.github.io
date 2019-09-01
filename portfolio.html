@@ -2,11 +2,17 @@
 <html>
 <head>
     <title>Portfolio - Simon Chiu / Zoa84 Website</title>
-    <script charset="utf-8" src="./portLightbox.js"></script>
     <link rel="shortcut icon" href="images/logo.png" />
     <link type="text/css" rel="stylesheet" media="screen" href="app.css">
 </head>
 <body onload="StartCycleImgs()">
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalIMG" src="images/ai1.png" alt="Modal Image" style="width:100%" onclick="NextModalImage()" />
+        </div>
+    </div>
+    <script charset="utf-8" src="./portLightbox.js"></script>
     <header>
         <div style="text-align:center; color:white; font-size:60px; float:right; padding-right:5%; padding-top:14px">
             Simon Chiu
@@ -37,7 +43,7 @@
         <p>
             <a id="ai" class="anchor">&nbsp;</a>
             <h2>Annihilation Intelligence</h2>
-            <a href="images/ai1.png"><img class="portImg" id="aiIMG" src="images/ai1.png" alt="Annihilation Intelligence 1" style="border: 3px solid black; float: right" /></a>
+            <img class="portImg" id="aiIMG" src="images/ai1.png" alt="Annihilation Intelligence" onclick="OpenModal(101)" style="border: 3px solid black; float: right" />
             <h3>Android Studio, Java, jPCT-AE</h3>
             Annihilation Intelligence (AI) was my Final Year Project during my third year at university. Developed using Java in Android Studio with <a href="http://www.jpct.net/jpct-ae/">jPCT-AE</a>,
             a 3D solution for Java and Android.<br>
@@ -53,7 +59,7 @@
 
             <a id="leap" class="anchor">&nbsp;</a>
             <h2>Leap Engine</h2>
-            <a href="images/leap1.png"><img class="portImg" id="leapIMG" src="images/leap1.png" alt="Leap Engine 1" style="border: 3px solid black; float: right" /></a>
+            <a href="images/leap1.png"><img class="portImg" id="leapIMG" src="images/leap1.png" alt="Leap Engine" onclick="OpenModal(102)" style="border: 3px solid black; float: right" /></a>
             <h3>Visual Studio, C++, OpenGL</h3>
             Leap Engine is a group developed coursework project made during my Third year of university as part of the Games Programming module. This was created alongside four other members
             as a 3D Games Engine, which was also used to create a 3D Platformer game: DiamondsInTheSky.exe. This engine made use of a structure inspired by Unity, implementing entities which
@@ -84,7 +90,7 @@
 
             <a id="ld38" class="anchor">&nbsp;</a>
             <h2>Ludum Dare 38 - A Small World - Lick's Cavern</h2>
-            <a href="images/lick1.jpg"><img class="portImg" id="lickIMG" src="images/lick1.jpg" alt="Licks Cavern 1" style="border: 3px solid black; float: right" /></a>
+            <a href="images/lick1.jpg"><img class="portImg" id="lickIMG" src="images/lick1.jpg" alt="Licks Cavern" onclick="OpenModal(103)" style="border: 3px solid black; float: right" /></a>
             <h3>Unity, C#</h3>
             I took part in a 72 hour Ludum Dare Games Jam, featuring the theme: A Small World. With only 72 hours, me and and my friend Rozen who I met during my time at univeristy
             came up with and created this game using Unity, with both of us only doing most of one tutorial prior. We used this Ludum Dare as a chance to try out using Unity and C#
@@ -119,6 +125,9 @@
             You can download a copy of the game <a href="files/Lineout.zip" download>here.</a><br><br>
 
         </p>
+
+
+
         <br><br><br><br>
     </section>
     <footer>
