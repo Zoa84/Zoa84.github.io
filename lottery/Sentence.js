@@ -1,1 +1,1 @@
-export lard = 2015;
+export default lard = 2015;
