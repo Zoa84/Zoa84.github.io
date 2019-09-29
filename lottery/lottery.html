@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Lottery - Simon Chiu / Zoa84</title>
+        <link rel="shortcut icon" href="logo.png" />
+        <link rel="stylesheet" href="css.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+      <header>
+          <h1>Lottery</h1>
+      </header>
+      <main>
+          <canvas id="lottery" width="1024" height="768"></canvas>
+          <h2>How to play:</h2>
+          <p>
+              <ul>
+                  <li>Choose a bet amount</li>
+                  <li>Pick your lottery numbers:</li>
+                  <ul>
+                      <li>You can select a lottery ball by clicking on a ball, changing the colour to green</li>
+                      <li>You can unselect a lottery ball by clicking it again, changing the colour back to red</li>
+                      <li>Clicking 'Lucky Dip' will auto select your remaining lottery numbers</li>
+                      <li>'Reset' will unselect all currently selected lottery balls</li>
+                  </ul>
+                  <li>Once you have chosen your numbers, and the 'Play!' button is green, click 'Play!' to roll the lottery!</li>
+                  <li>The winning numbers will then be revealed, where a winning number which does not match turns blue, and a winning number which matches will turn gold!</li>
+                  <li>Click 'Play again' to play another round!</li>
+                  <li id="inst_debug">Click any of the debug buttons to guarantee the chosen number of matches (This will click 'Play!' automatically)</li>
+              </ul>
+          </p>
+      </main>
+      <script src="js.js"></script>
+    </body>
+</html>
